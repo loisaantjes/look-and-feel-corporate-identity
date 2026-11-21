@@ -21,6 +21,10 @@ header {
     box-sizing: border-box;
 }
 
+img {
+    
+}
+
 nav {
     display: flex;
 
@@ -29,7 +33,7 @@ nav {
 
         li {
             a {
-                
+
             }
         }
     }
