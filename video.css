@@ -179,6 +179,11 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
 }
 
 
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
 .video-caption, a {
     color: white;
