@@ -37,6 +37,7 @@ img {
     width: auto;
     margin: 10px;
     margin-left: 15px;
+    flex-shrink: 0;
 }
 
 .search {
@@ -47,6 +48,9 @@ img {
     font-weight: bold;
     display: flex;
     align-items: center;
+    flex: 1;
+    max-width: 12.5rem;
+    min-width: 0;
     width: 12.5rem;
     border: 1px solid #ccc;
     border-radius: 0.9375rem;
@@ -75,6 +79,10 @@ img {
     cursor: pointer;
     display: flex;
     align-items: center;
+}
+
+.nav-menu {
+    flex-shrink: 0;
 }
 
 .nav-menu summary {
