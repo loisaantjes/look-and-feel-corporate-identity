@@ -186,6 +186,24 @@ Classes: .logo-balk*/
 
 
 
+.logo-balk, .linkedin-big .whatsapp-big .mail-big {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    min-height:fit-content;
+
+        .linkedin-big {
+            background-color: #fed200;
+        }
+
+        .whatsapp-big {
+            background-color: #ff5e31;
+        }
+
+        .mail-big {
+            background-color: #32dcb4;
+        }
+}
 
 
 /* FOOTER-STYLING
