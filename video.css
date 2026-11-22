@@ -24,6 +24,11 @@ header {
 
 img {
     
+    display: flex;
+    max-height: 35px;
+    width: auto;
+    margin: 10px;
+    margin-left: 15px;
 }
 
 nav {
