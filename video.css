@@ -179,6 +179,16 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
 }
 
 
+.thumbnail-wrapper {
+    display: inline-block;
+    line-height: 0;
+    border: 5px solid transparent; 
+    transition: border-color 0.2s ease;
+
+    &:hover {
+        border-color: var(--primary-color);
+    }
+}
 .video-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
