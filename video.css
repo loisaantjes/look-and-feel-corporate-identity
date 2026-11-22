@@ -152,6 +152,15 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
          
     }
 }
+.video-wrapper {
+    line-height: 0;
+    border: 2px solid transparent; 
+    transition: border-color 0.2s ease;
+
+    &:hover {
+        border-color: white;
+    }
+}
 }
 
 /* BETWEEN-STYLING
