@@ -180,6 +180,13 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
 
 
 
+.video-caption, a {
+    color: white;
+    text-decoration: none;
+        &:hover {
+            color: white;
+            text-decoration: underline; color: white;
+        }
 }
 
 /* BETWEEN-STYLING
