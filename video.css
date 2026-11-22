@@ -78,6 +78,14 @@ nav {
             a {
 
             }
+.nav-menu summary {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    font-size: 35px;
+    user-select: none;
+    margin: 10px;
+    margin-right: 15px;
 .nav-menu ul {
     position: absolute;
     top: 100%;
