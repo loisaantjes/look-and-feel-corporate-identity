@@ -11,9 +11,14 @@ Hieronder vind je de styling van de header.
 Onder anderen: header, img, ul li a, h1.
 Classes: .header-top, .header-logo, .nav-menu, .pagina-titel*/
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: auto;
+    top: 0%;
 .header-top {
     display: flex;
     justify-content: space-between;
