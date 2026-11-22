@@ -15,11 +15,11 @@ header {
     width: 100%;
     height: auto;
     background-color: black; opacity: 50%;
+.header-top {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 3px;
-    margin: 3px;
-    box-sizing: border-box;
-    background-color: black; opacity: 0, 0, 0, 0.5;
+    width: 100%;
 }
 
 img {
@@ -33,6 +33,43 @@ img {
 
 nav {
     display: flex;
+.search {
+        color: black;
+        font-family: var(--primary-font);
+        font-size: var(--font-size-smallest);
+        box-sizing: border-box;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        width: 12.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.9375rem;
+        padding: 0 0.625rem;
+        background-color: transparent
+        
+    }
+    
+    .search_input {
+        min-width: 0;
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 0.75rem 0.25rem;
+        font-family: inherit;
+        font-size: inherit;
+        background-color: transparent;
+        color: white;
+    }
+
+    .search_button {
+        flex-shrink: 0;
+        color: white;
+        border: none;
+        background: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
 
     ul {
         display: grid;
