@@ -221,7 +221,8 @@ h3 {
 
 .multi-video-box {
     background-color: white;
-    padding: 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 
     @media screen and (min-width: 648px) {
         padding: 0 40px;
