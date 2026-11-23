@@ -246,4 +246,6 @@ Hieronder vind je de styling van de footer.
 Onder anderen: h4.
 Classes: .aanmelden-nieuwsbrief, #Voornaam, #Achternaam, #Email-adres, .send-form, .over-hvana, .logo-footer, .logo-footer img, .dropdown-footer, over-opties, .info@hvana.nl, .footer-icons*/
 
+footer {
+    background-color: black;
 }
