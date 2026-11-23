@@ -141,6 +141,8 @@ li a {
         &:hover {
             -webkit-text-stroke: 0.5px; color: var(--primary-color);
         };
+}
+
 
 nav {
     display: flex;
@@ -206,6 +208,8 @@ h3 {
 
     @media screen and (min-width: 648px) {
         padding: 0 40px; 
+    }
+}
 
 .meer-videos {
     color: white;
@@ -221,6 +225,7 @@ h3 {
 
     @media screen and (min-width: 648px) {
         padding: 0 40px;
+    }
 }
 
 
@@ -234,6 +239,7 @@ h3 {
         border-color: var(--primary-color);
     }
 }
+
 .video-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
