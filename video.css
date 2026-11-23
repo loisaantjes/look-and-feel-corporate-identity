@@ -156,7 +156,8 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: -30px;
     max-width: 1080px;
     top: 0%;
 
