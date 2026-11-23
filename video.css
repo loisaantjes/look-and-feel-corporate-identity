@@ -95,6 +95,9 @@ img {
     margin: 10px;
     margin-right: 15px;
 
+    @media screen and (min-width: 648px) {
+        display: none; 
+        }
 }
 
 /*zodat apple-gebruikers geen pijltje zien door gebruik van ''summary'' */
