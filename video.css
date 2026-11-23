@@ -114,6 +114,10 @@ img {
     min-width: 100px;   /* Geeft het blokje een nette vaste breedte */
     border-radius: 6px; 
 
+    @media screen and (min-width: 648px) {
+        display: flex;
+        align-items: center;
+        }
 }
 
 li a {
