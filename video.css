@@ -171,7 +171,17 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
     }
 }
 
+.artikel-titel {
+    text-align: left;
+    background-color: white; 
+    top: 0;
+    padding: 0.3px 20px;
 
+    @media screen and (min-width: 648px) {
+        margin-left: 40px;
+        margin-right: 40px; 
+    }
+}
 
 p {
     color: black;
