@@ -136,6 +136,11 @@ li a {
             
 }
 
+.header-over-hvana {
+    color: var(--primary-color);
+        &:hover {
+            -webkit-text-stroke: 0.5px; color: var(--primary-color);
+        };
 
 nav {
     display: flex;
