@@ -173,6 +173,16 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
 
 
 
+p {
+    color: black;
+}
+
+h3 {
+    margin-left: 20px;
+    
+
+    @media screen and (min-width: 648px) {
+        padding: 0 40px; 
 
 .meer-videos {
     color: white;
