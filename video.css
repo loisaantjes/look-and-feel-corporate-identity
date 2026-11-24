@@ -298,7 +298,6 @@ Classes: .logo-balk*/
     
 
 .logo-balk img {
-       /* Bepaalt de hoogte van de gekleurde balk (pas dit naar wens aan) */
     object-fit: contain;
     display: block;
 }
@@ -339,10 +338,6 @@ Classes: .logo-balk*/
     
 }
 
-.form input {
-   
-}
-
 .privacy-groep {
     border: none;
     padding: 0;
@@ -373,13 +368,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
     
 }   
 
 .footer-icons {
     color: white;
 }
+
 .over-hvana {
     display: flex;
     flex-direction: column;
@@ -399,6 +395,7 @@ footer {
     
         }
 }
+
 .over-hvana details {
   display: flex;
   flex-direction: column;
@@ -418,6 +415,7 @@ footer {
     user-select: none;
     margin: 10px 0;
 }
+
 .over-hvana ul {
     list-style:none;
     margin: 0;
