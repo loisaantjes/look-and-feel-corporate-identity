@@ -101,12 +101,36 @@
         </a>
     </div>
 
-    <footer>
-        <form class="aanmelden-nieuwsbrief" action="">
-            <input type="text" name="nieuwsbrief" id="Voornaam">
-            <input type="text" name="nieuwsbrief" id="Achternaam">
-            <input type="text" name="nieuwsbrief" id="Email-adres">
-            <button class="send-form">MIS GEEN UPDATES</button>
+    <div class="niks-missen">
+        <h2 class="titel-nieuwsbrief">Niks meer missen van HvA?</h2>
+        <p class="ondertitel-nieuwsbrief">Schrijf je in voor onze nieuwsbrief!</p>
+    </div>
+
+<form class="aanmelden-nieuwsbrief">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" name="voornaam" id="voornaam" autocomplete="given-name" required>
+
+            <label for="achternaam">Achternaam</label>
+            <input type="text" name="achternaam" id="achternaam" autocomplete="family-name" required>
+
+            <label for="email-adres">E-mailadres</label>
+            <input type="email" name="email" id="email-adres" autocomplete="email" required>
+
+            <fieldset class="privacy-groep">
+                        <legend >Checkbox</legend>
+
+                    <label class="privacy">
+                    
+                        Privacy (vereist) <br>
+                        <input type="checkbox" name="checkbox" class="privacy" required>
+                        Ik ga akkoord met de opslag en verwerking van mijn gegevens door deze website. -
+                        </label>
+                        <a href="#" class="privacy_link">Privacybeleid *</a>
+
+            
+            </fieldset>
+
+            <button type="submit" class="send-form">MIS GEEN UPDATES</button>
         </form>
 
         <div class="over-hvana" id="over-hvana">
