@@ -274,7 +274,7 @@ Classes: .logo-balk*/
 .logo-balk a {
     flex: 1;
     min-width: 0;
-    height: 35px;
+    height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
