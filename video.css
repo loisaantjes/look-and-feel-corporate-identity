@@ -234,11 +234,6 @@ h3 {
     }
 }
 
-.logo-balk {
-    
-}
-
-
 .thumbnail-wrapper {
     display: inline-block;
     line-height: 0;
@@ -270,27 +265,103 @@ Hieronder vind je de styling van het stuk tussen de main en de footer.
 Onder anderen: .
 Classes: .logo-balk*/
 
-
-
-.logo-balk, .linkedin-big .whatsapp-big .mail-big {
+.logo-balk {
     display: flex;
-    justify-content: space-between;
-    min-width: 250px;
-    min-height:fit-content;
+    width: 100%;
+    gap: 0;
+}
+
+.logo-balk a {
+    flex: 1;
+    min-width: 0;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
         .linkedin-big {
-            background-color: #fed200;
-        }
+    background-color: #fed200;
+    width: 100%;
+    }
 
-        .whatsapp-big {
-            background-color: #ff5e31;
-        }
+    .whatsapp-big {
+        background-color: #ff5e31;
+        width: 100%;
+        height: auto;
+    }
 
-        .mail-big {
-            background-color: #32dcb4;
+    .mail-big {
+        background-color: #32dcb4;
+        width: 100%;
+    }
+    }
+    
+
+.logo-balk img {
+       /* Bepaalt de hoogte van de gekleurde balk (pas dit naar wens aan) */
+    object-fit: contain;
+    display: block;
+}
+
+.niks-missen {  
+    text-align: center;
+
+        h2, p {
+            color: white;
         }
 }
 
+
+.aanmelden-nieuwsbrief {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 20px 60px;
+    padding: 5px;
+
+        label {
+            color: white;
+            margin: 5px;
+        }
+
+        legend {
+            display: none;
+        }
+}
+
+.privacy {
+    margin-top: 20px;
+}
+
+.send-form {
+    margin-top: 20px;
+    max-width: 80%;
+    
+}
+
+.form input {
+   
+}
+
+.privacy-groep {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.send-form {
+    background-color: var(--button-primary-color);
+    color: white;
+    border: none;
+    padding: 0.9375rem 1.5625rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: var(--button-hover-color);
+        }
+    }
 
 /* FOOTER-STYLING
 Hieronder vind je de styling van de footer.
@@ -299,4 +370,13 @@ Classes: .aanmelden-nieuwsbrief, #Voornaam, #Achternaam, #Email-adres, .send-for
 
 footer {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    
+}   
+
+.footer-icons {
+    color: white;
 }
