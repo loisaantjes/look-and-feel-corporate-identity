@@ -410,7 +410,6 @@ footer {
 .over-hvana summary {
     display: flex;
     justify-content: center;
-    justify-content: center;
     gap: 8px;
     color: white;
     list-style: none;
