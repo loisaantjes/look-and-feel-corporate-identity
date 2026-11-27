@@ -58,6 +58,9 @@ img {
     padding: 0 0.625rem;
     background-color: transparent;
     
+        @media (min-width: 800px) {
+            align-items: flex-start;
+            }
 }
 
 .search_input {
