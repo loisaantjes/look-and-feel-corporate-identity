@@ -403,6 +403,10 @@ footer {
   text-align: center;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
 .over-hvana summary {
     display: flex;
     justify-content: center;
