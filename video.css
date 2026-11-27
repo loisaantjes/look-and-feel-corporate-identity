@@ -95,9 +95,9 @@ img {
     margin: 10px;
     margin-right: 15px;
 
-    @media screen and (min-width: 648px) {
-        display: none; 
-        }
+        @media (min-width: 800px) {
+            display: none;
+            }
 }
 
 /*zodat apple-gebruikers geen pijltje zien door gebruik van ''summary'' */
@@ -117,10 +117,10 @@ img {
     min-width: 100px;   /* Geeft het blokje een nette vaste breedte */
     border-radius: 6px; 
 
-    @media screen and (min-width: 648px) {
-        display: flex;
-        align-items: center;
-        }
+        @media (min-width: 648px) {
+            display: flex;
+            align-items: center;
+            }
 }
 
 li a {
@@ -171,7 +171,7 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
     max-width: 1080px;
     top: 0%;
 
-    @media screen and (min-width: 648px) {
+    @media (min-width: 648px) {
          
     }
 }
@@ -192,7 +192,7 @@ Classes: .video-wrapper,  .video-grid, .video-item-link, .tumbnail-wrapper*/
     top: 0;
     padding: 0.3px 20px;
 
-    @media screen and (min-width: 648px) {
+    @media (min-width: 648px) {
         margin-left: 40px;
         margin-right: 40px; 
     }
@@ -206,7 +206,7 @@ h3 {
     margin-left: 20px;
     
 
-    @media screen and (min-width: 648px) {
+    @media (min-width: 648px) {
         padding: 0 40px; 
     }
 }
@@ -217,7 +217,7 @@ h3 {
     margin-top: 40px;
     margin-bottom: 10px;
 
-        @media screen and (min-width: 648px) {
+        @media (min-width: 648px) {
         margin-left: -20px;
         margin-right: -20px; 
     } 
@@ -229,7 +229,7 @@ h3 {
     padding-top: 20px;
     padding-bottom: 0px;
 
-    @media screen and (min-width: 648px) {
+    @media (min-width: 648px) {
         padding: 0 40px;
     }
 }
